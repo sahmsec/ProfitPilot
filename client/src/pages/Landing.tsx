@@ -12,7 +12,7 @@ export default function Landing() {
         <div className="container mx-auto px-4 py-4 flex items-center justify-between">
           <div className="flex items-center gap-2">
             <Shield className="w-6 h-6 text-primary" data-testid="icon-shield" />
-            <h1 className="text-xl font-bold" data-testid="text-company-name">Arena Web Security</h1>
+            <h1 className="text-xl font-bold" data-testid="text-company-name">Profit Pilot</h1>
           </div>
           <div className="flex gap-2">
             <Button variant="outline" onClick={() => setLocation("/register")} data-testid="button-register">
@@ -98,7 +98,7 @@ export default function Landing() {
 
       <footer className="border-t mt-16 py-8">
         <div className="container mx-auto px-4 text-center text-sm text-muted-foreground">
-          <p data-testid="text-footer">© 2025 Arena Web Security. Cybersecurity Training Organization.</p>
+          <p data-testid="text-footer">© 2025 Profit Pilot. Cybersecurity Training Organization.</p>
         </div>
       </footer>
     </div>

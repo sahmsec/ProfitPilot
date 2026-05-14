@@ -205,7 +205,7 @@ export default function Dashboard() {
                 Business Profit & Expense Tracker
               </h1>
               <p className="text-lg md:text-xl font-semibold mt-1">
-                Arena Web Security
+                Profit Pilot
               </p>
             </div>
             <div className="flex items-center gap-2">

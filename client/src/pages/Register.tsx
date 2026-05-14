@@ -75,7 +75,7 @@ export default function Register() {
             </div>
             <CardTitle className="text-2xl" data-testid="text-register-title">Create Account</CardTitle>
             <CardDescription data-testid="text-register-description">
-              Register for Arena Web Security Financial Tracker
+              Register for Profit Pilot Financial Tracker
             </CardDescription>
           </CardHeader>
           <CardContent>

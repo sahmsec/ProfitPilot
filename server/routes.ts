@@ -320,7 +320,7 @@ export async function registerRoutes(app: Express): Promise<Server> {
       const xml = `<?xml version="1.0" encoding="UTF-8"?>
 <FinancialReport>
   <Organization>
-    <Name>Arena Web Security</Name>
+    <Name>Profit Pilot</Name>
     <ReportGeneratedBy>${escapeXml(user?.firstName || '')} ${escapeXml(user?.lastName || '')}</ReportGeneratedBy>
     <Email>${escapeXml(user?.email || '')}</Email>
     <GeneratedDate>${new Date().toISOString()}</GeneratedDate>
